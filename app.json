@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "TaskFlow",
+    "slug": "taskflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "taskflow",
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.example.taskflow"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.taskflow"
+    }
+  }
+}
